@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandon Karl Hoffmann Poetry</title>
+<meta name="description" content="Brandon Karl Hoffmann — poetry. Creative ideations. Based in College Park, Maryland.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #000000;
+    --text: #ffffff;
+    --muted: #b3b3b3;
+    --accent: #00d1ff;
+    --line: #333333;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Heebo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1.6;
+    background: var(--bg);
+    text-align: center;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 72px 0 32px; }
+  header h1 {
+    font-weight: 100;
+    font-size: clamp(2.2rem, 8vw, 3.5rem);
+    line-height: 1.15;
+    letter-spacing: 1px;
+  }
+  header .tagline {
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: var(--muted);
+    margin-top: 8px;
+    letter-spacing: 1px;
+  }
+  .intro { padding: 8px 0 32px; }
+  .intro p { color: var(--muted); margin-bottom: 10px; font-size: 1.05rem; }
+  .intro em { color: var(--text); font-style: italic; }
+  .links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+  }
+  .links a {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding-bottom: 56px;
+  }
+  @media (min-width: 640px) { .gallery { grid-template-columns: 1fr 1fr 1fr 1fr; } }
+  .gallery a { display: block; }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  .gallery a:hover img { opacity: 0.85; }
+  footer {
+    padding: 28px 0 48px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--line);
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Brandon Karl Hoffmann</h1>
+    <p class="tagline">Creative ideations</p>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="wrap">
+    <p>Lover of the <em>try everything while you can</em> mentality.</p>
+    <p>I enjoy attempting to build thought-provoking word messes into cleaner verse.</p>
+    <p>Based in College Park, Maryland.</p>
+  </div>
+</section>
+
+<nav class="links">
+  <div class="wrap">
+    <a href="https://www.tiktok.com/@karlhoffm" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://www.youtube.com/@karlhoffm" target="_blank" rel="noopener">YouTube Shorts</a>
+    <a href="https://www.amazon.com/author/brandonkarlhoffmann" target="_blank" rel="noopener">Information</a>
+    <a href="mailto:brandonkarlhoffmann@gmail.com">Email</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <div class="gallery">
+      <a href="https://www.amazon.com/dp/B0GWLTDX3R" target="_blank" rel="noopener"><img src="deep-rest.jpg" alt="Deep Rest" loading="lazy"></a>
+      <a href="https://a.co/d/0ceZIMad" target="_blank" rel="noopener"><img src="elemental-epiphany.jpg" alt="Elemental Epiphany: Poems That Changed My Life" loading="lazy"></a>
+      <a href="https://www.amazon.com/dp/B0FKC33XMW" target="_blank" rel="noopener"><img src="cigarette-butts-teacup.jpg" alt="Cigarette Butts in a Teacup: A Life Journey of Poetry" loading="lazy"></a>
+      <a href="https://a.co/d/05BrMbIU" target="_blank" rel="noopener"><img src="life-uncharted.jpg" alt="Life Uncharted: A Poetry Chapbook" loading="lazy"></a>
+      <a href="https://a.co/d/04WIMw5w" target="_blank" rel="noopener"><img src="is-it-love.jpg" alt="Is It Love? A Poetry Chapbook" loading="lazy"></a>
+      <a href="https://www.amazon.com/dp/0578645653" target="_blank" rel="noopener"><img src="best-intern.jpg" alt="How to Be the Best Intern in the World" loading="lazy"></a>
+      <a href="https://medium.com/@brandonkarlhoffmann" target="_blank" rel="noopener"><img src="medium.jpg" alt="Medium.com BKH" loading="lazy"></a>
+      <a href="https://brandonkarlhoffmann.substack.com/" target="_blank" rel="noopener"><img src="substack.png" alt="Substack" loading="lazy"></a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 Brandon Karl Hoffmann &middot; <a href="https://brandonhoffmann.com">brandonhoffmann.com</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
